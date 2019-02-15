@@ -1,0 +1,12 @@
+nome = str(input('Qual é seu nome?'))
+#condição simples#
+if nome == 'Renato':
+    print('bom dia, {}'.format(nome))
+elif nome == 'pedroca' or nome == 'ana' or nome == 'jojoca' #pode usar quantas vezes quiser o elif#
+        print ('belo nome kkkkk')
+else:
+    print('seu nome não é renato, cade ele?')
+print('Bom dia , {}!'.format(nome))
+
+
+#estrutura condicional alinhada como uma boneca russa, tudo em linha#
